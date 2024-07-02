@@ -3,7 +3,7 @@ Analyze a list of passwords and provide an analysis of the the passwords into a 
 
 This approach gains us a nearly 40% decrease in computation when tested against standard sorting approaches using a 1.6 million sample size from [available breach data](https://github.com/berzerk0/Probable-Wordlists/blob/master/Real-Passwords/Real-Password-Rev-2-Torrents/ProbWL-v2-Real-Passwords-7z.torrent). 
 
-The full breakdown of the approach is detailing in the code, but the high-level understanding is as follows.
+The full breakdown of the approach is detailed in the code, but the high-level understanding is as follows.
 
 Given a wordlist of the following:    
 ```python
