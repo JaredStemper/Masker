@@ -1,7 +1,7 @@
 # Masker
 Analyze a list of passwords and provide an analysis of the the passwords into a mask ingestible to hashcat.
 
-This approach has a Big(O) nlog(n), gaining us a nearly 40% decrease in computation when tested against standard sorting approaches using a 1.6 million sample size from [available breach data](https://github.com/berzerk0/Probable-Wordlists/blob/master/Real-Passwords/Real-Password-Rev-2-Torrents/ProbWL-v2-Real-Passwords-7z.torrent). 
+A novel bucket-sort approach with a Big O notation of nlog(n) improves computation by nearly 40% decrease when tested against standard sorting approaches using a 1.6 million sample size from [available breach data](https://github.com/berzerk0/Probable-Wordlists/blob/master/Real-Passwords/Real-Password-Rev-2-Torrents/ProbWL-v2-Real-Passwords-7z.torrent). 
 
 The full breakdown of the approach is detailed in the code, but the high-level understanding is as follows.
 
