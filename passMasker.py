@@ -1,8 +1,6 @@
 import argparse
 import time
 
-# Inspired by [Voyag3r-Security](https://github.com/Voyag3r-Security)'s work [here](https://github.com/Voyag3r-Security/PasswordAnalysis/blob/main/masker.py), this approach utilized bucket sorting to help optimize performance over larger wordlists.
-
 def prettyPrint(results, wordCountDict, numOfPasses):
     """Print function that shows the provided list of resultant masks and their occurence count"""
     if numOfPasses == -1:
